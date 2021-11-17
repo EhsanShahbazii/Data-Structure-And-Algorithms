@@ -1,4 +1,4 @@
-## List Of Algorithm
-- #### [Single Linked List (SLL)](SingleLinkedList/readme.md)
-- #### [Double Linked List (DLL)](DoubleLinkedList/readme.md)
+## List Of Data Structure
+- #### [Single Linked List (SLL)](SingleLinkedList/)
+- #### [Double Linked List (DLL)](DoubleLinkedList/)
 - #### Circular Linked List (CLL)
