@@ -44,7 +44,7 @@ class SingleLinkedList {
   }
 
   addLast(value) {
-    this.#m_tail = new Node(value, this.#m_tail);
+    this.#m_tail = new Node(value, null);
 
     this.#m_tail = this.#m_size == 0 ? this.#m_head : this.#m_tail;
 
