@@ -72,7 +72,7 @@ public class DoubleLinkedList<Type> implements IDoubleLinkedList<Type> {
 
         Type lastTail = m_tail.getValue();
         m_tail = m_tail.getPrev();
-        m_head.setNext(null);
+        m_tail.setNext(null);
         m_size--;
 
         return lastTail;
