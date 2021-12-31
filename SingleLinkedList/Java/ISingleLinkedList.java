@@ -1,13 +1,19 @@
 public interface ISingleLinkedList<Type> {
 
-    void insertFirst(Type value);
-    void insertLast(Type value);
+    void addFirst(Type value);
+    void addLast(Type value);
+
+    Type removeFirst();
+    Type removeLast();
+
+    int size();
 
     boolean isEmpty();
 
-    int size();
-    
-    Node<Type> first();
-    Node<Type> last();
-    Type deleteFirst();
+    void showList();
+
+    Node<Type> getHead();
+    Node<Type> getTail();
 }
+
+// uptade 27 November
