@@ -35,7 +35,6 @@ public class SingleLinkedList<Type> implements ISingleLinkedList<Type> {
 
     @Override
     public Type removeLast() {
-
         Type prevTail;
         prevTail = m_size != 0 ? m_tail.getValue() : null;
 
