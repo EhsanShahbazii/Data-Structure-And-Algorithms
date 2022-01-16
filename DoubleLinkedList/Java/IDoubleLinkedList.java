@@ -1,15 +1,19 @@
 public interface IDoubleLinkedList<Type> {
 
-    void insertFirst(Type value);
-    void insertLast(Type value);
-    void showList();
+    void addFirst(Type value);
+    void addLast(Type value);
+
+    Type removeFirst();
+    Type removeLast();
+
+    int size();
 
     boolean isEmpty();
 
-    int size();
-    
-    Node<Type> first();
-    Node<Type> last();
-    Type deleteFirst();
-    Type deleteLast();
+    void showList();
+
+    Node<Type> getHead();
+    Node<Type> getTail();
 }
+
+// update 27 November
