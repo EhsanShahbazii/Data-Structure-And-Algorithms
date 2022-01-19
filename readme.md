@@ -7,7 +7,7 @@
   - [java](SingleLinkedList/Java) <last update 27 November>
   - [java script](SingleLinkedList/Java%20Script)
 - #### [Double Linked List (DLL)](DoubleLinkedList/)
-  - [java](DoubleLinkedList/Java)
+  - [java](DoubleLinkedList/Java) <last update 27 November>
   - [java2](DoubleLinkedList/Java2)
   - [java script](DoubleLinkedList/Java%20Script)
 - #### [Circular Linked List (CLL)](CircularLinkedList/)
