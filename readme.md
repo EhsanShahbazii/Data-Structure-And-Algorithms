@@ -1,13 +1,30 @@
 ## List Of Data Structure
 
-
 ### Lists
 - #### [Single Linked List (SLL)](SingleLinkedList/)
   - [problem 1: Task List](SingleLinkedList/Problem)
   - [java](SingleLinkedList/Java) <last update 27 November>
+    - addFirst()
+    - addLast()
+    - removeFirst()
+    - removeLast()
+    - size()
+    - isEmpty()
+    - showList()
+    - getHead()
+    - getTail()
   - [java script](SingleLinkedList/Java%20Script)
 - #### [Double Linked List (DLL)](DoubleLinkedList/)
   - [java](DoubleLinkedList/Java) <last update 27 November>
+    - addFirst()
+    - addLast()
+    - removeFirst()
+    - removeLast()
+    - size()
+    - isEmpty()
+    - showList()
+    - getHead()
+    - getTail()
   - [java2](DoubleLinkedList/Java2)
   - [java script](DoubleLinkedList/Java%20Script)
 - #### [Circular Linked List (CLL)](CircularLinkedList/)
