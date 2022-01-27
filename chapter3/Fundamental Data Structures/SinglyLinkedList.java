@@ -103,12 +103,3 @@ public class SinglyLinkedList<E> {
   }
   
 }
-  
-  
-  
-  
-  
-  
-  
-  
-  
