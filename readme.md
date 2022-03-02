@@ -1,4 +1,5 @@
 ## List Of Data Structure
+A complete list of important data structures and algorithms implemented in Java.
 
 ### **Chapter 3**: ***Fundamental Data Structures***
   - [SinglyLinkedList (data structure)](chapter3/Fundamental%20Data%20Structures/SinglyLinkedList.java)
