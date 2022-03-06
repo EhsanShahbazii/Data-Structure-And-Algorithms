@@ -5,6 +5,7 @@ last update: 2022 Dec 13
 */
 
 public SinglyLinkedList<E> clone() throws CloneNotSupportedException {
+  
   // always use inherited Object.clone() to create the initial copy
   SinglyLinkedList<E> other = (SinglyLinkedList<E>) super.clone(); // safe cast
   
@@ -21,4 +22,5 @@ public SinglyLinkedList<E> clone() throws CloneNotSupportedException {
     }
   }
   return other;
+  
 }
