@@ -26,7 +26,7 @@ last update 2022 Dec 14
 /** Tests if every opening tag has a matching closing tag in HTML string. */
 public static boolean isHTMLMatched(String html) {
   
-  Stack<String> buffer = new LinkedStack<>( );
+  Stack<String> buffer = new LinkedStack<>();
   int j = html.indexOf('<'); // find first ’<’ character (if any)
   
   while (j != −1) {
@@ -38,13 +38,13 @@ public static boolean isHTMLMatched(String html) {
     if (!tag.startsWith("/")) // this is an opening tag
       buffer.push(tag);
     else { // this is a closing tag
-      if (buffer.isEmpty( ))
+      if (buffer.isEmpty())
         return false; // no tag to match
-      if (!tag.substring(1).equals(buffer.pop( )))
+      if (!tag.substring(1).equals(buffer.pop()))
         return false; // mismatched tag
     }
     j = html.indexOf('<', k+1); // find next ’<’ character (if any)
   }
-  return buffer.isEmpty( ); // were all opening tags matched?
+  return buffer.isEmpty(); // were all opening tags matched?
   
 }
