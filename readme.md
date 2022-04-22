@@ -10,5 +10,6 @@ A complete list of important data structures and algorithms implemented in Java.
 
 ### **Chapter 6**: ***Stacks, Queues, and Deques***
   - [ArrayStack (data structure)](Chapter6/Stacks,%20Queues,%20and%20Deques/Stack/ArrayStack.java)
+  - [LinkedStack (data structure)](Chapter6/Stacks,%20Queues,%20and%20Deques/LinkedStack/LinkedStack.java)
 
 # comming soon...
