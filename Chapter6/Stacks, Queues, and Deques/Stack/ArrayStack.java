@@ -35,17 +35,17 @@ public class ArrayStack<E> implements IStack<E> {
   }
   
   public void push(E element) throws IllegalStateException {
-    if (size( ) == data.length) throw new IllegalStateException("Stack is full");
+    if (size() == data.length) throw new IllegalStateException("Stack is full");
     data[++m_index] = element; // increment t before storing new item
   }
   
-  public E top( ) {
-    if (isEmpty( )) return null;
+  public E top() {
+    if (isEmpty()) return null;
     return data[m_index];
   }
   
-  public E pop( ) {
-    if (isEmpty( )) return null;
+  public E pop() {
+    if (isEmpty()) return null;
     E answer = data[m_index];
     data[m_index] = null; // dereference to help garbage collection
     m_index−−;
