@@ -17,7 +17,7 @@ public class ArrayStack<E> implements IStack<E> {
   private int m_index = −1; // index of the top element in stack
   
   // constructs stack with default capacity
-  public ArrayStack() { 
+  public ArrayStack( ) { 
     this(CAPACITY);
   } 
   
@@ -26,21 +26,21 @@ public class ArrayStack<E> implements IStack<E> {
     data = (E[]) new Object[capacity]; // safe cast; compiler may give warning
   }
   
-  public int size() { 
+  public int size( ) { 
     return (m_index + 1);
   }
   
-  public boolean isEmpty() {
+  public boolean isEmpty( ) {
     return (m_index == −1);
   }
   
   public void push(E element) throws IllegalStateException {
-    if (size() == data.length) throw new IllegalStateException("Stack is full");
+    if (size( ) == data.length) throw new IllegalStateException("Stack is full");
     data[++m_index] = element; // increment t before storing new item
   }
   
-  public E top() {
-    if (isEmpty()) return null;
+  public E top( ) {
+    if (isEmpty( )) return null;
     return data[m_index];
   }
   
