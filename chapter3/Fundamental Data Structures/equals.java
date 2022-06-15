@@ -24,7 +24,7 @@ last update: 2022 Dec 13
 
 public boolean equals(Object obj) {
   if (obj == null) return false;
-  if (getClass() != obj.getClass()) return false;
+  if (getClass( ) != obj.getClass( )) return false;
   
   SinglyLinkedList other = (SinglyLinkedList) obj; // use nonparameterized type
   if (size != other.size) return false;
@@ -33,9 +33,9 @@ public boolean equals(Object obj) {
   Node walkB = other.head; // traverse the secondary list
   
   while (walkA != null) {
-    if (!walkA.getElement().equals(walkB.getElement())) return false; //mismatch
-    walkA = walkA.getNext();
-    walkB = walkB.getNext();
+    if (!walkA.getElement( ).equals(walkB.getElement( ))) return false; //mismatch
+    walkA = walkA.getNext( );
+    walkB = walkB.getNext( );
   }
   return true; // if we reach this, everything matched successfully
 }
