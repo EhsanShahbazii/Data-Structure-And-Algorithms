@@ -1,4 +1,16 @@
-/** Implementation of the queue ADT using a fixed-length array. */
+/*
+Implementation of the queue ADT using a fixed-length array
+
+enqueue(e):       Adds element e to the back of queue.
+dequeue( ):       Removes and returns the first element from the queue (or null if the queue is empty).
+                  The queue ADT also includes the following accessor methods (with first being analogous to the stack’s top method):
+first( ):         Returns the first element of the queue, without removing it (or null if the queue is empty).
+size( ):          Returns the number of elements in the queue.
+isEmpty( ):       Returns a boolean indicating whether the queue is empty.
+
+last update 2022 Dec 26
+*/
+
 public class ArrayQueue<E> implements Queue<E> {
   // instance variables
   private E[ ] m_data; // generic array used for storage
