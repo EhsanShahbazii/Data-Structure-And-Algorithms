@@ -12,7 +12,7 @@ last update 2022 Dec 26
 */
 
 /** Realization of a FIFO queue as an adaptation of a SinglyLinkedList. */
-public class LinkedQueue<E> implements Queue<E> {
+public class LinkedQueue<E> implements IQueue<E> {
   private SinglyLinkedList<E> list = new SinglyLinkedList<>( ); // an empty list
   
   public LinkedQueue( ) { } // new queue relies on the initially empty list
