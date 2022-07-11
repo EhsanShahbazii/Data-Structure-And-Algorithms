@@ -14,5 +14,8 @@ A complete list of important data structures and algorithms implemented in Java.
   - [reverse in ArrayStack (method)](Chapter6/Stacks,%20Queues,%20and%20Deques/reverse.java)
   - [isMatched (example)](Chapter6/Stacks,%20Queues,%20and%20Deques/Examples/isMatched.java)
   - [isHTMLMatched (example)](Chapter6/Stacks,%20Queues,%20and%20Deques/Examples/isHTMLMatched.java)
+  - [Josephus (example)](Chapter6/Stacks,%20Queues,%20and%20Deques/Examples/Josephus.java)
+  - [ArrayQueue (data structure)](Chapter6/Stacks,%20Queues,%20and%20Deques/Queue/ArrayQueue.java)
+  - [LinkedQueue (data structure)](Chapter6/Stacks,%20Queues,%20and%20Deques/Queue/LinkedQueue.java)
 
 # coming soon.....
