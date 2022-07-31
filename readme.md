@@ -20,7 +20,7 @@ A complete list of important data structures and algorithms implemented in Java.
   - [isHTMLMatched (example)](Chapter6/Stacks,%20Queues,%20and%20Deques/Examples/isHTMLMatched.java)
   - [Josephus (example)](Chapter6/Stacks,%20Queues,%20and%20Deques/Examples/Josephus.java)
 
-### ***List and Iterator ADTs***
-  - [ArrayStack (data structure)](Chapter6/Stacks,%20Queues,%20and%20Deques/Stack/ArrayStack.java)
+### **Chapter 7**: ***List and Iterator ADTs***
+  - [ArrayList (data structure)](Chapter7/List%20and%20Iterator%20ADTs/ArrayList.java)
   
 # coming soon.....
