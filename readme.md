@@ -1,5 +1,5 @@
 ## List Of Data Structure
-A complete list of important data structures and algorithms implemented in Java.
+A complete list of important data structures and algorithms implemented in Java. 
 
 🔥**last update 2022 Dec 31**🔥
 
