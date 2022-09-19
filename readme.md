@@ -9,6 +9,7 @@ A complete list of important data structures and algorithms implemented in Java.
   - [Circularly Linked List (data structure)](chapter3/Fundamental%20Data%20Structures/CircularlyLinkedList.java)
   - [clone in Singly Linked List (method)](chapter3/Fundamental%20Data%20Structures/clone.java)
   - [equals in Singly Linked List (method)](chapter3/Fundamental%20Data%20Structures/equals.java)
+  - #### **[Single Linked List (Summary)🔥](chapter3/Fundamental%20Data%20Structures/Summary/Single%20Linked%20List.md)**
 
 ### **Chapter 6**: ***Stacks, Queues, and Deques***
   - [Array Stack (data structure)](Chapter6/Stacks,%20Queues,%20and%20Deques/Stack/ArrayStack.java)
