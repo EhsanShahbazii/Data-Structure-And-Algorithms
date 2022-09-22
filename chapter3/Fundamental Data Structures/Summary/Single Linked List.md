@@ -22,8 +22,8 @@ private int size = 0;               // number of nodes in the list
   - **addLast(e):** Adds a new element to the end of the list.
   - **removeFirst( ):** Removes and returns the first element of the list.
 
-| Operations | Access | Search | Insertion | Deletion |
-|------------|--------|--------|-----------|----------|
-| Best case time complexity | O(1) | O(1)   | O(1)      | O(1)     |
-| Worst Case time complexity | O(n) | O(n)   | O(n)      | O(n)     |
-| Average time complexity | O(n) | O(n)   | O(1)      | O(1)     |
+| Operations                 | Access | Search | Insertion | Deletion |
+|----------------------------|--------|--------|-----------|----------|
+| Best case time complexity  | O(1)   | O(1)   | O(1)      | O(1)     |
+| Worst Case time complexity | O(n)   | O(n)   | O(n)      | O(n)     |
+| Average time complexity    | O(n)   | O(n)   | O(1)      | O(1)     |
