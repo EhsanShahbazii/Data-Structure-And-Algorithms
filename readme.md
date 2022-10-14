@@ -26,6 +26,7 @@ A complete list of important data structures and algorithms implemented in Java.
   - [Josephus (example)](Chapter6/Stacks,%20Queues,%20and%20Deques/Examples/Josephus.java)
 ### Summary🔥
   - **[Stack](Chapter6/Stacks,%20Queues,%20and%20Deques/Summary/Stack.md)**
+  - **[Queue](Chapter6/Stacks,%20Queues,%20and%20Deques/Summary/Queue.md)**
 
 ### **Chapter 7**: ***List and Iterator ADTs***
   - [Array List (data structure)](Chapter7/List%20and%20Iterator%20ADTs/ArrayList.java)
