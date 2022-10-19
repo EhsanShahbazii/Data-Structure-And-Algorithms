@@ -1,5 +1,3 @@
-# ⚠️خلاصه ها رو برا امتحان مطالعه کنید (Summary)⚠️
-
 ## List Of Data Structure
 A complete list of important data structures and algorithms implemented in Java. 
 
