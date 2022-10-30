@@ -1,6 +1,6 @@
 ## List Of Data Structure
 
-![preview](https://camo.githubusercontent.com/209cff110067a8a1d41863dfd9e6469c02571dc51197ee8bccfe11abfc79aaf1/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f636f75727365736974792d626c6f672f323032302f30372f646174612d7374727563747572652d616c676f726974686d2d636f75727365732e706e67)
+![preview](https://ehsan.storage.iran.liara.space/git-hub/Data-Structure-And-Algorithms/preview.png)
 
 A complete list of important data structures and algorithms implemented in Java. 
 
