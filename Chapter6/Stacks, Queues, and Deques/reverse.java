@@ -12,6 +12,6 @@ public static <E> void reverse(E[] array) {
   for (int i = 0; i < array.length; i++)
     buffer.push(a[i]);
   for (int i = 0; i < array.length; i++)
-    a[i] = buffer.pop();
+    a[i] = buffer.pop( );
   
 }
