@@ -30,15 +30,15 @@ public class DoublyLinkedList<E> {
       m_next = next;
     }
     
-    public E getElement() { 
+    public E getElement( ) { 
       return m_element;
     }
     
-    public Node<E> getPrev() {
+    public Node<E> getPrev( ) {
       return m_prev;
     }
     
-    public Node<E> getNext() {
+    public Node<E> getNext( ) {
       return m_next;
     }
     
