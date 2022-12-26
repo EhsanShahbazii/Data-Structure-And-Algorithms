@@ -24,11 +24,11 @@ public class SinglyLinkedList<E> {
       m_next = node;
     }
     
-    public E getElement() { 
+    public E getElement( ) { 
       return m_element;
     }
     
-    public Node<E> getNext() { 
+    public Node<E> getNext( ) { 
       return m_next;
     }
     
