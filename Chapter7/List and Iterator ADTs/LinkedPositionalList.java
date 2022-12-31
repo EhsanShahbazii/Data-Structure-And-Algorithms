@@ -1,4 +1,15 @@
+/*
+Implementation of a positional list stored as a doubly linked list
 
+addFirst(e):                Inserts a new element e at the front of the list, returning the position of the new element.
+addLast(e):                 Inserts a new element e at the back of the list, returning the position of the new element.
+addBefore(p, e):            Inserts a new element e in the list, just before position p, returning the position of the new element.
+addAfter(p, e):             Inserts a new element e in the list, just after position p, returning the position of the new element.
+set(p, e):                  Replaces the element at position p with element e, returning the element formerly at position p.
+remove(p):                  Removes and returns the element at position p in the list, invalidating the position.
+
+last update: 2022 Dec 31
+*/
 
 
 /** Implementation of a positional list stored as a doubly linked list. */
