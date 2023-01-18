@@ -15,6 +15,7 @@ A complete list of important data structures and algorithms implemented in Java.
   - [Linked Stack (data structure)](Chapter6/Stacks,%20Queues,%20and%20Deques/LinkedStack/LinkedStack.java)
   - [Array Queue (data structure)](Chapter6/Stacks,%20Queues,%20and%20Deques/Queue/ArrayQueue.java)
   - [Linked Queue (data structure)](Chapter6/Stacks,%20Queues,%20and%20Deques/Queue/LinkedQueue.java)
+  - [Double Ended Queue (data structure)](Chapter6/Stacks,%20Queues,%20and%20Deques/Dequeue/Dequeue.java)
   - [reverse in Array Stack (method)](Chapter6/Stacks,%20Queues,%20and%20Deques/reverse.java)
   - [isMatched (example)](Chapter6/Stacks,%20Queues,%20and%20Deques/Examples/isMatched.java)
   - [isHTMLMatched (example)](Chapter6/Stacks,%20Queues,%20and%20Deques/Examples/isHTMLMatched.java)
