@@ -7,7 +7,7 @@
 private E element;                  // reference to the element stored at this node
 private Node<E> next;               // reference to the subsequent node in the list
 ```
-#### C  LL class variables:
+#### CLL class variables:
 ```java
 private Node<E> tail = null;        // we store tail (but not head)
 private int size = 0;               // number of nodes in the list
